@@ -5,7 +5,7 @@ import io.restassured.internal.common.assertion.Assertion;
 import org.junit.Assert;
 
 public class SuaceLabsLoginSteps {
-    SauceLoginScreen login;
+    SauceLoginScreen login = new SauceLoginScreen();
 
 
     public void ingresoElUsuario(String usuario) {

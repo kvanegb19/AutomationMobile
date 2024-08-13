@@ -8,7 +8,7 @@ import net.thucydides.core.annotations.Steps;
 
 public class SauceLabsStepDef {
     @Steps
-    SuaceLabsLoginSteps login;
+    SuaceLabsLoginSteps login = new SuaceLabsLoginSteps();
 
     @When("ingreso el usuario {string}")
     public void ingresoElUsuario(String usuario) {
